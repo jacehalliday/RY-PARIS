@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 200px 0px 150px;
+  background-color: #f1a536;
+  border-bottom: 3px solid #ffffff;
+}
+.header-right nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 20px;
+}
+section.hero {
+  height: calc(100vh - 80px);
+  background-image: url("../img/hero-image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hero-text {
+  background-color: white;
+  text-align: center;
+  position: relative;
+  top: 70%;
+  transform: translateY(-50%);
+  font-size: 40px;
+  width: fit-content;
+  max-width: 90%;
+  margin: 0 auto;
+}
+.test {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+}

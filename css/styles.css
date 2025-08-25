@@ -8,7 +8,7 @@ header {
   align-items: center;
   padding: 20px 200px 0px 150px;
   background-color: #f1a536;
-  border-bottom: 3px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
 }
 .header-right nav a {
   margin-left: 20px;
@@ -18,7 +18,7 @@ header {
   font-size: 20px;
 }
 section.hero {
-  height: calc(100vh - 80px);
+  height: calc(100vh - 170px);
   background-image: url("../img/hero-image.jpg");
   background-size: cover;
   background-position: center;
@@ -28,15 +28,53 @@ section.hero {
   background-color: white;
   text-align: center;
   position: relative;
-  top: 70%;
+  top: 79%;
   transform: translateY(-50%);
   font-size: 40px;
   width: fit-content;
   max-width: 90%;
   margin: 0 auto;
+  font-weight: 800;
+  font-size: 50px;
+  padding: 5px 30px;
 }
-.test {
-  background-color: red;
-  width: 100px;
-  height: 100px;
+h2 {
+  font-weight: 800;
+  font-size: 50px;
+  margin: 50px 120px 20px 120px;
+}
+p {
+  font-size: 20px;
+  margin: 0px 120px;
+  font-size: 30px;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 70px 0;
+  gap: 60px;
+}
+.image-container img {
+  width: 515px;
+  height: 350px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+.image-container span {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 0;
+}
+.image-container .image-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 515px;
+}
+.image-item span {
+  margin: 10px;
+  font-size: 24px;
+  font-weight: 600;
 }
